@@ -1,0 +1,10 @@
+Setup system, follow the commands: 
+    sudo apt update && sudo apt upgrade -y
+    sudo apt install -y curl gnupg lsb-release
+    sudo curl -sSL http://packages.osrfoundation.org/gazebo.key | sudo apt-key add -
+    sudo sh -c 'echo "deb http://packages.osrfoundation.org/gazebo/ubuntu-stable $(lsb_release -cs) main" > /etc/apt/sources.list.d/gazebo-stable.list'
+    sudo apt update
+Now install gazebo:
+    sudo apt install -y ignition-fortress
+Launch gazebo with the following command: 
+    ign gazebo
