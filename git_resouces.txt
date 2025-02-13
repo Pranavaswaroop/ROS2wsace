@@ -1,6 +1,5 @@
 open your workspace in terminal, 
 follow the commands:
     cd src
-    git clone https://github.com/gurselturkeri/ros2_diff_drive_robot
     git clone https://github.com/MickySukmana/arm_robot
     git clone https://github.com/SaxionMechatronics/smart_diffbot
